@@ -29,7 +29,7 @@
 ​	执行ssh-add时出现`**Could not open a connection to your authentication agent**`，在执行 ssh-add ~/.ssh/id_ras 时发生此错误。执行如下命令：
 
 ```bas
-#ssh-agent
+#ssh-agent bash
 ```
 
 ​	然后再执行ssh-add ~/.ssh/id_rsa即可。
